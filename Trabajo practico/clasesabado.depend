@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1535809352 source:/home/alumno/Escritorio/clasesabado/main.c
+	<stdio.h>
+	<stdlib.h>
+
+1536341972 source:c:\users\caja\desktop\programacion\c2018-master\gonzalezfacundo\clasesabado\main.c
+	<stdio.h>
+	<stdlib.h>
+	"math.h"
+	<conio.h>
+
+1536342854 source:c:\users\caja\desktop\programacion\c2018-master\gonzalezfacundo\clasesabado\math.c
+	<stdio.h>
+	<stdlib.h>
+	"math.h"
+
+1536341321 c:\users\caja\desktop\programacion\c2018-master\gonzalezfacundo\clasesabado\math.c
+	<stdio.h>
+	<stdlib.h>
+
+1536341351 c:\users\caja\desktop\programacion\c2018-master\gonzalezfacundo\clasesabado\math.h
+	<stdio.h>
+	<stdlib.h>
+

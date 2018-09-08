@@ -8,7 +8,7 @@
 int main()
 {
 int flag, opcion;
-float numeroUno, numeroDos, resultadoSuma=0, resultadoResta=0, resultadoDivision=0, resultadoMultiplicacion=0;
+float numeroUno=0, numeroDos=0, resultadoSuma=0, resultadoResta=0, resultadoDivision=0, resultadoMultiplicacion=0;
 
 
 do
@@ -16,8 +16,8 @@ do
     printf("*                             BIENVENIDO!!!                        * \n");                                  /*Ingreso de datos*/
     printf("*                           Menu de opciones                       *\n" );
     printf("--------------------------------------------------------------------\n" );
-    printf("1.Ingrese primer operando   %f \n",numeroUno);
-    printf("2.Ingresar segundo operando %f \n",numeroDos);
+    printf("1.Ingrese primer operando   %.2f \n",numeroUno);
+    printf("2.Ingresar segundo operando %.2f \n",numeroDos);
     printf("3.calculas todas las operaciones\n");
     printf("4.Informar resultados\n");
     printf("5.Salir \n");
@@ -52,14 +52,15 @@ do
         resultadoResta = resta(numeroUno,numeroDos);
         resultadoDivision = division(numeroUno,numeroDos);
         resultadoMultiplicacion = multiplicacion(numeroUno,numeroDos);
+        system("pause");
 
         break;
         case 4:
         printf("Resultados...");
-        printf("El resultado de la SUMA es es: %f       \n",resultadoSuma);
-        printf("El resultado de la RESTA es: %f         \n",resultadoResta);
-        printf("El resultado de la DIVISION es: %f      \n",resultadoDivision);
-        printf("El resultado de la MULTIPLICACION es:%f \n ",resultadoMultiplicacion);
+        printf("El resultado de la SUMA es es: %.2f       \n",resultadoSuma);
+        printf("El resultado de la RESTA es: %.2f         \n",resultadoResta);
+        printf("El resultado de la DIVISION es: %.2f      \n",resultadoDivision);
+        printf("El resultado de la MULTIPLICACION es:%.2f \n ",resultadoMultiplicacion);
 
         system("pause");
         break;
@@ -72,7 +73,7 @@ do
 
     default:
         printf("¡Ingrese una opcion valida!\n");
-        printf("%f %f", numeroUno,numeroUno);
+        printf("%.2f %.2f", numeroUno,numeroUno);
     }
     system("cls");
 
